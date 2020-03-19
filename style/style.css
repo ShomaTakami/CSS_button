@@ -1,0 +1,127 @@
+body {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f0;
+  font-family: "Playfair Display", serif;
+}
+.content {
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+}
+/* =========button============= */
+
+.btn-real {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(152, 152, 152, 0.43);
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  background: #f5f5f0;
+  box-shadow: inset -1px 2px 2px rgba(255, 255, 255, 0.92),
+    -10px 15px 30px rgba(123, 123, 123, 0.187);
+}
+.btn-real i {
+  line-height: 80px;
+}
+
+.btn-active {
+  box-shadow: inset -1px 2px 2px rgba(123, 123, 123, 0.187),
+    inset 2px -4px 4px rgb(255, 255, 255);
+  border-bottom: none;
+  transition: 2s;
+}
+.btn-active i {
+  color: rgba(255, 138, 13, 0.755);
+}
+/* ================================== */
+/* ============another========== */
+
+.card {
+  margin: 40px;
+  border: 2px solid #f5f5f0;
+  border-radius: 10px;
+  box-shadow: inset -1px 2px 2px rgb(255, 255, 255),
+    -7px 4px 8px rgba(123, 123, 123, 0.187);
+}
+.another {
+  border-radius: 10px;
+  border: 2px solid #f5f5f0;
+  box-shadow: inset -4px 2px 7px rgba(123, 123, 123, 0.187),
+    inset 2px -4px 4px rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
+.item {
+  display: inline-block;
+}
+.square {
+  margin: 30px;
+  border-radius: 10px;
+  border: 1px solid #f5f5f0;
+  box-shadow: inset -1px 2px 2px rgba(250, 250, 250, 0.975),
+    -10px 15px 30px rgba(123, 123, 123, 0.187);
+  width: 100px;
+  height: 100px;
+}
+.in-square {
+  margin: 30px;
+  border-radius: 10px;
+  border: 1px solid #f5f5f0;
+  box-shadow: inset -4px 2px 7px rgba(123, 123, 123, 0.187),
+    inset 2px -4px 4px rgb(255, 255, 255);
+  width: 100px;
+  height: 100px;
+}
+.db-circle {
+  margin: 30px;
+  border-radius: 50px;
+  border: 1px solid #f5f5f0;
+  box-shadow: inset -4px 2px 7px rgba(123, 123, 123, 0.187),
+    inset 2px -4px 4px rgb(255, 255, 255);
+  width: 100px;
+  height: 100px;
+}
+.single-circle {
+  margin: 18px;
+  border-radius: 30px;
+  border: 1px solid #f5f5f0;
+  box-shadow: -4px 8px 7px rgba(123, 123, 123, 0.187),
+    inset 0px 2px 2px rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+}
+.item span {
+  margin: 10px;
+  padding: 4px;
+  background: rgba(255, 138, 13, 0.755);
+  border-radius: 30px;
+  color: white;
+}
+/* =============================== */
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(255, 138, 13, 0.755);
+  text-align: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:active {
+  color: white;
+}
